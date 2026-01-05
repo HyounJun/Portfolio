@@ -1,4 +1,5 @@
-WITH view_person as (  #상품을 본 사람
+
+WITH view_person as (  --상품을 본 사람
         SELECT event_time
         ,user_id
         ,user_session as view_at
