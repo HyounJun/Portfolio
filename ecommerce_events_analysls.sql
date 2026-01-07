@@ -26,8 +26,8 @@ FROM(
 group by brand_srot
 order by cnt desc
 
-
--- 상품 페이지 - 장바구니 - 구매 퍼널별 전환 수
+--funnel
+-- 상품 페이지 - 장바구니 - 구매 퍼널별 전환 비율
 WITH view_person as (  --상품을 본 사람
         SELECT event_time
         ,user_id
@@ -47,14 +47,46 @@ WITH view_person as (  --상품을 본 사람
         from 2019_dec
         where event_type = 'purchase'
 )
-SELECT count(DISTINCT view_person.user_id , view_person.view_at) as view_cnt
-       ,count(DISTINCT cart_person.user_id , cart_person.cart_at) as cart_after
-       ,count(DISTINCT purchase_person.user_id , purchase_person.purchase_at) as purchase_after
-from view_person
-    left join cart_person on view_person.user_id = cart_person.user_id
-                         AND view_person.view_at = cart_person.cart_at
-                         AND view_person.event_time <= cart_person.event_time -- 제품을 본 세션과 장바구니에 담은세션이 같은것도 포함
-    left JOIN purchase_person on purchase_person.user_id = cart_person.user_id
-                             AND purchase_person.purchase_at = cart_person.cart_at
-                             AND purchase_person.event_time >= cart_person.event_time -- 장바구니에 담은 세션과 구매한 세션이 같은것도 포함
+SELECT count(DISTINCT vp.user_id , vp.view_at) as view_cnt
+       ,count(DISTINCT cp.user_id , cp.cart_at) as cart_after
+       ,count(DISTINCT pp.user_id , pp.purchase_at) as purchase_after
+
+       ,round(count(DISTINCT cp.user_id , cp.cart_at) * 100 / count(DISTINCT vp.user_id , vp.view_at),2) as view_cart_rate --상품을 보고 장바구니에 담은 비율
+       ,round(count(DISTINCT pp.user_id , pp.purchase_at) * 100 / count(DISTINCT cp.user_id , cp.cart_at),2)as cart_purchase_rate -- 장바구니에서 상품을 구매한 비율
+       ,round(count(DISTINCT pp.user_id , pp.purchase_at) * 100 / count(DISTINCT vp.user_id , vp.view_at),2) as view_purchase_rate -- 상품을 보고 바로 구매한 비율
+from view_person as vp
+    left join cart_person as cp on vp.user_id = cp.user_id
+                         AND vp.view_at = cp.cart_at
+                         AND vp.event_time <= cp.event_time -- 제품을 본 세션과 장바구니에 담은세션이 같은것도 포함
+    left JOIN purchase_person as pp on pp.user_id = cp.user_id
+                             AND pp.purchase_at = cp.cart_at
+                             AND pp.event_time >= cp.event_time -- 장바구니에 담은 세션과 구매한 세션이 같은것도 포함
+
+
+
+-- 요일 별 구매비율
+
+--카테고리별 구매 비
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
