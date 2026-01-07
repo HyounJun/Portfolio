@@ -9,7 +9,7 @@ SELECT category
        ,count(*) as cnt
 FROM(
         SELECT *
-               ,case WHEN category_code ='' then 'Unknow' else category_code end as category
+               ,case WHEN category_code ='' then 'Unknown' else category_code end as category
         from 2019_dec
 )as category_unknow
 group by category
@@ -20,7 +20,7 @@ SELECT brand_srot
        ,count(*) as cnt
 FROM(
         SELECT *
-               ,case WHEN brand ='' then 'Unknow' else brand end as brand_srot
+               ,case WHEN brand ='' then 'Unknown' else brand end as brand_srot
         from 2019_dec
 )as brand_unknow
 group by brand_srot
@@ -75,7 +75,7 @@ from view_person as vp
 --카테고리별 전환 비율
 WITH base_data as(
         SELECT *
-                ,case WHEN category_code = '' THEN 'Unknow' else category_code end as category
+                ,case WHEN category_code = '' THEN 'Unknown' else category_code end as category
         FROM 2019_dec
 ), view_person as (  
         SELECT event_time
