@@ -26,6 +26,14 @@ FROM(
 group by brand_srot
 order by cnt desc
 
+--일별 방문자
+SELECT 
+    DATE(event_time) AS event_date,
+    COUNT(DISTINCT user_id) AS DAU 
+FROM 2019_dec
+GROUP BY event_date
+ORDER BY event_date
+      
 --funnel
 -- 상품 페이지 - 장바구니 - 구매 퍼널별 전환 비율
 WITH view_person as (  --상품을 본 사람
@@ -63,8 +71,6 @@ from view_person as vp
                              AND pp.event_time >= cp.event_time -- 장바구니에 담은 세션과 구매한 세션이 같은것도 포함
 
 
-
--- 요일 별 구매비율
 
 --카테고리별 전환 비율
 WITH base_data as(
