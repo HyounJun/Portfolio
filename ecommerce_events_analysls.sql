@@ -15,7 +15,7 @@ FROM(
 group by category
 order by cnt desc
 
---category_code별 값 확인 (공백은 Unknow처리)
+--brand 값 확인 (공백은 Unknow처리)
 SELECT brand_srot
        ,count(*) as cnt
 FROM(
