@@ -1,7 +1,8 @@
 Certificate  
 
-1.데이터리안 / SQL 입문반  
-2.데이터리안 / SQL 실전반
+-데이터리안 / SQL 입문반  
+-데이터리안 / SQL 실전반
+-Google Analytics
 
 Project  
 Sleep_Quality project  
