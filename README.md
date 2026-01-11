@@ -1,7 +1,8 @@
-Certificate  
-
+Education
 -데이터리안 / SQL 입문반  
 -데이터리안 / SQL 실전반  
+
+Certificate  
 -Google Analytics
 
 Project  
