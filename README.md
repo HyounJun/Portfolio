@@ -16,7 +16,7 @@ Dataset :  https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle
 
 Ecommerce_events_analysis  
 개요 : 중규모의 화장품 온라인 쇼핑몰의 데이터를 활용하여 구매 전환율 및 브랜드별 구매율 분석 / 개인프로젝트  
-Dataset : https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop
+Dataset : https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop  
 기술 환경 : MySQL, VSCODE   
 주요 역할 :  
 주요활동  
