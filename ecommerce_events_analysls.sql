@@ -83,7 +83,14 @@ from view_person as vp
                              AND pp.event_time >= cp.event_time -- 장바구니에 담은 세션과 구매한 세션이 같은것도 포함
 
 
+/*
+view - cart : 14.93 %
+cart - purchase : 15.82 %
+view - purchase : 2.36 %
+*/
 
+
+      
 -- 카테고리별 전환 비율
 WITH base_data as(
         SELECT *
@@ -187,6 +194,8 @@ order by view_cnt desc
 카테고리의 데이터 누락률(Unknow)이 98.35%, 브랜드의 데이터 누락률(Unknow)이 42.74%로 전체적인 데이터 값의 유실률이 높음으로 데이터 수집 체제의 점검해야합니다.
 상품을 본 후 바로 구매하는 비율 중 apparel.glove 카테고리가 5.18%로 가장 높았으며, elskin 브랜드가 7.8%로 가장 높았습니다.
 
+종합 전환율을 보면 2.36%로 나타났으며, View->Cart의 단계에서 85%가 이탈하는것을 보였습니다.
+이를 보안하기 위해 상세 페이지의 보강이 요구됩니다.
 */
 
 
