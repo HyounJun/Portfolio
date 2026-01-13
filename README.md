@@ -6,24 +6,10 @@
 - Google Analytics (GA)
 
 ## Project  
-Sleep_Quality project  
-개요 : 수면데이터를 활용하여 수면에 영향을 끼치는 다양한 요소를 알아본다. / 개인프로젝트  
-Dataset :  https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset  
-기술 환경 : Jupyter Lab, Python(Numpy, pandas, seaborn, matpliat),T-test  
-주요 활동 :  
-성과 :  
-
-Ecommerce_events_analysis  
-개요 : 중규모의 화장품 온라인 쇼핑몰의 데이터를 활용하여 구매 전환율 및 브랜드별 구매율 분석 / 개인프로젝트  
-Dataset : https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop  
-기술 환경 : MySQL, VSCODE   
-주요활동 :  
-성과 :   
-
 
 ## 🔹 Sleep Quality Analysis  
 ### 📌 프로젝트 개요  
-수면 데이터를 활용하여 수면의 질에 영향을 미치는 주요 요인을 알아봅니다. / 개인 프로젝트입니다.  
+수면 데이터를 활용하여 수면의 질에 영향을 미치는 주요 요인을 알아봅니다. / 개인 프로젝트  
 
 ### 🎯 분석 목적  
 수면 시간, 스트레스 수준, 수면 장애 유무 등이 수면의 질에 유의미한 영향을 미치는지 검증  
@@ -46,16 +32,14 @@ T-test를 활용한 그룹 간 평균 차이 검정
 ## 🔹 Ecommerce Events Analysis  
 ### 📌 프로젝트 개요  
 화장품 온라인 쇼핑몰의 사용자 행동 로그 데이터를 활용하여  
-구매 전환 퍼널과 브랜드·카테고리별 전환 특성을 분석한 프로젝트입니다.  
+구매 전환 퍼널과 브랜드, 카테고리별 전환율을 분석한 프로젝트입니다. / 개인프로젝트    
   
 ### 🎯 분석 목적  
 View → Cart → Purchase 퍼널 단계별 전환율 분석  
-브랜드 및 카테고리별 구매 전환 특성 파악  
+브랜드, 카테고리별 구매 전환 특성 파악 및 방안제시   
 
 ### 🗂 데이터 설명  
-출처: Kaggle – Ecommerce Events History in Cosmetics Shop  
-주요 이벤트: view, cart, purchase  
-분석 기간: 2019년 12월  
+출처: Kaggle / https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop  
 
 ### 🛠 분석 방법  
 MySQL을 활용한 데이터 추출 및 집계  
