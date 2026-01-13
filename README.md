@@ -43,29 +43,29 @@ T-test를 활용한 그룹 간 평균 차이 검정
 스트레스 수준이 높을수록 수면의 질이 낮아지는 경향 관찰
 
 
-## 🔹 Ecommerce Events Analysis
-### 📌 프로젝트 개요
-화장품 온라인 쇼핑몰의 사용자 행동 로그 데이터를 활용하여
-구매 전환 퍼널과 브랜드·카테고리별 전환 특성을 분석한 프로젝트입니다.
+## 🔹 Ecommerce Events Analysis  
+### 📌 프로젝트 개요  
+화장품 온라인 쇼핑몰의 사용자 행동 로그 데이터를 활용하여  
+구매 전환 퍼널과 브랜드·카테고리별 전환 특성을 분석한 프로젝트입니다.  
+  
+### 🎯 분석 목적  
+View → Cart → Purchase 퍼널 단계별 전환율 분석  
+브랜드 및 카테고리별 구매 전환 특성 파악  
 
-### 🎯 분석 목적
-View → Cart → Purchase 퍼널 단계별 전환율 분석
-브랜드 및 카테고리별 구매 전환 특성 파악
+### 🗂 데이터 설명  
+출처: Kaggle – Ecommerce Events History in Cosmetics Shop  
+주요 이벤트: view, cart, purchase  
+분석 기간: 2019년 12월  
 
-### 🗂 데이터 설명
-출처: Kaggle – Ecommerce Events History in Cosmetics Shop
-주요 이벤트: view, cart, purchase
-분석 기간: 2019년 12월
+### 🛠 분석 방법  
+MySQL을 활용한 데이터 추출 및 집계  
+세션 단위 퍼널 분석  
+결측치(Unknown) 비중 분석을 통한 데이터 품질 평가  
 
-### 🛠 분석 방법
-MySQL을 활용한 데이터 추출 및 집계
-세션 단위 퍼널 분석
-결측치(Unknown) 비중 분석을 통한 데이터 품질 평가
-
-### 📊 주요 결과
-전체 View → Purchase 전환율은 약 2.36%
-View → Cart 단계에서 약 85%의 이탈 발생
-카테고리 데이터의 결측률이 높아 해석에 주의 필요
+### 📊 주요 결과  
+전체 View → Purchase 전환율은 약 2.36%   
+View → Cart 단계에서 약 85%의 이탈 발생  
+카테고리 데이터의 결측률이 높아 해석에 주의 필요  
 
 
 
