@@ -1,9 +1,9 @@
-Education  
--데이터리안 / SQL 입문반  
--데이터리안 / SQL 실전반  
+## Education
+- 데이터리안 SQL 입문반
+- 데이터리안 SQL 실전반
 
-Certificate  
--Google Analytics
+## Certificate
+- Google Analytics (GA)
 
 Project  
 Sleep_Quality project  
