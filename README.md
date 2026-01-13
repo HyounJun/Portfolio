@@ -19,3 +19,25 @@ Dataset : https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-
 기술 환경 : MySQL, VSCODE   
 주요활동 :  
 성과 :   
+
+
+🔹 Sleep Quality Analysis
+📌 프로젝트 개요
+수면 데이터와 생활 습관 데이터를 활용하여 수면의 질에 영향을 미치는 주요 요인을 파악하기 위한 개인 프로젝트입니다.
+
+🎯 분석 목적
+수면 시간, 신체 활동, 스트레스 수준 등이 수면의 질에 유의미한 영향을 미치는지 검증
+통계적 방법을 통해 단순 상관관계가 아닌 유의미한 차이를 확인
+
+🗂 데이터 설명
+출처: Kaggle – Sleep Health and Lifestyle Dataset
+주요 변수: 수면 시간, 수면의 질, 신체 활동 수준, 스트레스 지수, BMI 등
+
+🛠 분석 방법
+Python (pandas, numpy, seaborn, matplotlib)
+T-test를 활용한 그룹 간 평균 차이 검정
+시각화를 통한 분포 및 패턴 확인
+
+📊 주요 결과
+수면 시간이 짧은 그룹과 긴 그룹 간 수면의 질에서 통계적으로 유의미한 차이 확인
+스트레스 수준이 높을수록 수면의 질이 낮아지는 경향 관찰
