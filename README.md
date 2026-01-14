@@ -54,4 +54,5 @@ View → Cart 단계에서 약 85%의 이탈 발생
 
 
 
+<img width="2492" height="1649" alt="my_funnel_chart" src="https://github.com/user-attachments/assets/2a1406b1-6924-4286-99b0-e890dff6ee25" />
 
