@@ -61,4 +61,6 @@ category , brand별 Unknow의 비율이 매우 높아 데이터 분류 및 수�
 
 
 <img width="2492" height="1649" alt="my_funnel_chart" src="https://github.com/user-attachments/assets/2a1406b1-6924-4286-99b0-e890dff6ee25" />
+<img width="366" height="179" alt="화면 캡처 2026-01-27 084021" src="https://github.com/user-attachments/assets/7413597d-1766-4c77-b0b5-87fa299cecbf" />
+<img width="2271" height="2043" alt="category_ratio_final" src="https://github.com/user-attachments/assets/40ef5c4a-8677-4fc5-a9a4-06138158b965" />
 
