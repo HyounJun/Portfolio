@@ -352,20 +352,6 @@ GROUP BY 가격대;
 
 ---
 
-## 📁 프로젝트 파일 구조
-
-```
-study/
-├── README.md                    # 프로젝트 문서 (이 파일)
-├── run_sql.py                   # 기본 테이블 정보 확인
-├── funnel_analysis.py           # 퍼널 분석 스크립트
-├── retention_analysis.py        # 리텐션 분석 스크립트
-├── time_cart_analysis.py        # 시간대 & 장바구니 이탈 분석
-└── 2019_dec_analysis.sql        # 순수 SQL 쿼리 모음
-```
-
----
-
 ## 🚀 실행 방법
 
 ### 1. 환경 설정
