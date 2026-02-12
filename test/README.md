@@ -417,37 +417,3 @@ python time_cart_analysis.py
 3. **장바구니 이탈 69.3%**: 가장 큰 개선 기회
 4. **가격 민감도**: 고가 제품일수록 이탈률 증가
 
----
-
-## 🎓 배운 점 및 개선 사항
-
-### 기술적 학습
-- 대용량 데이터 처리 및 최적화
-- 복잡한 SQL 쿼리 작성 (WITH, CASE, WINDOW FUNCTION)
-- Python-MySQL 연동 및 자동화
-- 데이터 시각화 및 스토리텔링
-
-### 향후 개선 방향
-- 데이터 시각화 (Matplotlib, Seaborn, Tableau)
-- 머신러닝 모델 적용 (고객 이탈 예측)
-- A/B 테스트 설계 및 분석
-- 실시간 대시보드 구축
-
----
-
-## 📞 Contact
-
-**분석자**: [Your Name]
-**이메일**: your.email@example.com
-**GitHub**: https://github.com/yourusername
-**LinkedIn**: https://linkedin.com/in/yourprofile
-
----
-
-## 📜 License
-
-이 프로젝트는 포트폴리오 목적으로 제작되었습니다.
-
----
-
-**Last Updated**: 2026-02-10
