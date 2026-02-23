@@ -61,7 +61,7 @@
 
 ---
 
-## 가설 1: 가격이 높을수록 구매 전환율이 낮다 ✅ 검증됨
+## 가설 1: 가격이 높을수록 구매 전환율이 낮다.
 
 | 가격대 | 조회 수 | 조회→구매 전환율 | 조회→장바구니 전환율 |
 |---|---|---|---|
@@ -76,7 +76,7 @@
 
 ---
 
-## 가설 2: 시간대에 따라 구매 전환율이 다르다 ✅ 검증됨
+## 가설 2: 시간대에 따라 구매 전환율이 다르다.
 
 - 최저 전환율: **1.92%** (0시)
 - 최고 전환율: **3.25%** (10시)
@@ -97,8 +97,8 @@
 
 ## 사용 기술
 
-`MySQL 8.0` `Tableau Public` `Python (pymysql)`
+`MySQL 8.0` `Tableau Public`
 
 ## 데이터 출처
 
-[Kaggle - eCommerce Events History in Electronics Store](https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-electronics-store)
+출처: Kaggle / https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop
