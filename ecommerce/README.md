@@ -7,7 +7,8 @@
 ## 대시보드
 
 
-<img width="2494" height="1090" alt="대시보드 2" src="https://github.com/user-attachments/assets/e9c722d8-a2a1-403e-b640-eeb10eebaecd" />
+<img width="2494" height="1090" alt="이커머스 시각화" src="https://github.com/user-attachments/assets/0120e03a-37fd-4e8f-8075-f2c258a80b3b" />
+
 
 
 ---
