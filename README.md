@@ -56,5 +56,6 @@ View → Cart 단계에서 약 85%가 이탈함으로, 상세페이지를 개선
 category , brand별 Unknow의 비율이 매우 높아 데이터 분류 및 수집 파이프라인을 개선해야합니다.  
 카테고리 데이터의 결측률이 높아 해석에 주의 필요  
 
-<img width="2494" height="1090" alt="대시보드 2" src="https://github.com/user-attachments/assets/4dfd6737-dcc0-42e8-9bc6-7d508db48780" />
+
+<img width="2494" height="1090" alt="이커머스 시각화" src="https://github.com/user-attachments/assets/fbfcf19d-6739-4cb0-b6f9-b0ae894b8c86" />
 
