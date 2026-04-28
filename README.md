@@ -1,3 +1,4 @@
+
 ## Education
 - 데이터리안 SQL 입문반
 - 데이터리안 SQL 실전반
@@ -56,5 +57,4 @@ View → Cart 단계에서 약 85%가 이탈함으로, 상세페이지를 개선
 category , brand별 Unknow의 비율이 매우 높아 데이터 분류 및 수집 파이프라인을 개선해야합니다.  
 카테고리 데이터의 결측률이 높아 해석에 주의 필요  
 
-
-![funnel_chart](https://github.com/user-attachments/assets/f06f8902-84e7-4063-b070-524d6ba52d88)
+<img width="2494" height="1090" alt="이커머스 시각화" src="https://github.com/user-attachments/assets/df558ed9-8c7d-4a11-b6aa-cb0683359aa2" />
